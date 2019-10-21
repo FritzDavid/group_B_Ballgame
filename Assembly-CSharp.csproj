@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\golfclub.cs" />
     <None Include="Assets\fbx_objexts\33-fbx\fbx\Readme.txt" />
+    <None Include="Assets\fbx_objexts\Minigolf Kit (2.0)\License.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/frda1023/group_B_Ballgame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -624,6 +625,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{E4787CA7-5D1B-0802-5255-29F27DFB83B8}</Project>
+      <Name>SteamVR_Actions</Name>
+    </ProjectReference>
     <ProjectReference Include="SteamVR_Input_Editor.csproj">
       <Project>{E06E88D2-F47C-E038-42DE-419574A961C1}</Project>
       <Name>SteamVR_Input_Editor</Name>
@@ -639,10 +644,6 @@
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{6E94005F-8A05-F2A0-E868-A354A22FEC8B}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{E4787CA7-5D1B-0802-5255-29F27DFB83B8}</Project>
-      <Name>SteamVR_Actions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
