@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.group_b_ballgame.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\frda1023\\group_B_Ballgame\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\feni1011\\Desktop\\VR_git\\group_B_Ballgame\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "group_B_Ballgame [Testing]"
