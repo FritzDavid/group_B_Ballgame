@@ -62,7 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ball_force.cs" />
     <Compile Include="Assets\golfclub.cs" />
+    <Compile Include="Assets\teleport_player_to_ball.cs" />
     <None Include="Assets\fbx_objexts\33-fbx\fbx\Readme.txt" />
     <None Include="Assets\fbx_objexts\Minigolf Kit (2.0)\License.txt" />
     <Reference Include="Unity.Timeline.Editor">
