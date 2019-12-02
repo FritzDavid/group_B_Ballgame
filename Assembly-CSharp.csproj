@@ -66,6 +66,8 @@
     <Compile Include="Assets\golfclub.cs" />
     <Compile Include="Assets\HoleTrigger.cs" />
     <Compile Include="Assets\teleport_player_to_ball.cs" />
+    <None Include="Assets\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
+    <None Include="Assets\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Basic.shader" />
     <None Include="Assets\fbx_objexts\33-fbx\fbx\Readme.txt" />
     <None Include="Assets\fbx_objexts\Minigolf Kit (2.0)\License.txt" />
     <Reference Include="Unity.Timeline.Editor">
