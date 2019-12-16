@@ -18,7 +18,7 @@ public class teleport_player_to_ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.SqrMagnitude(ball.transform.position - old_position) < 0.000000000000000001)
+        if (Vector3.SqrMagnitude(ball.transform.position - old_position) < 0.000000001)
         {
             samePositionCounter++;
 
