@@ -65,6 +65,7 @@
     <Compile Include="Assets\ball_force.cs" />
     <Compile Include="Assets\golfclub.cs" />
     <Compile Include="Assets\HoleTrigger.cs" />
+    <Compile Include="Assets\show_stats.cs" />
     <Compile Include="Assets\StopBall.cs" />
     <Compile Include="Assets\teleport_player_to_ball.cs" />
     <None Include="Assets\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
