@@ -11,6 +11,7 @@ public class teleport_player_to_ball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ball = GameObject.Find("ball");
         old_position = ball.transform.position;
         samePositionCounter = 0;
     }
@@ -18,12 +19,14 @@ public class teleport_player_to_ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ball = GameObject.Find("ball");
+
         if (Vector3.SqrMagnitude(ball.transform.position - old_position) < 0.000000001)
         {
             samePositionCounter++;
 
             if (samePositionCounter >= 100)
-            {
+            {   
                 this.transform.position = new Vector3(ball.transform.position.x, this.transform.position.y, ball.transform.position.z);
                 samePositionCounter = 0;
                 Debug.Log("teleport");

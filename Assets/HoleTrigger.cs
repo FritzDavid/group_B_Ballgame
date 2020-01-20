@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HoleTrigger : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class HoleTrigger : MonoBehaviour
         if (other.GetComponent<Collider>().gameObject.name == "ball")
         {
             Debug.Log("ball");
+            SceneManager.LoadScene("level_moon_1", LoadSceneMode.Single);
         }
     }
 }
