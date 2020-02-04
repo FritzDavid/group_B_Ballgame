@@ -7,6 +7,7 @@ public class teleport_player_to_ball : MonoBehaviour
     public GameObject ball;
     public Vector3 old_position;
     public int samePositionCounter;
+    public Vector3 lastValidPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -26,15 +27,29 @@ public class teleport_player_to_ball : MonoBehaviour
             samePositionCounter++;
 
             if (samePositionCounter >= 100)
-            {   
+            {
+                
                 this.transform.position = new Vector3(ball.transform.position.x, this.transform.position.y, ball.transform.position.z);
+
+                lastValidPosition = ball.transform.position;
                 samePositionCounter = 0;
                 Debug.Log("teleport");
             }
             
-
+            
             
         }
+
+        if (ball.transform.position.y < 0)
+        {
+            ball.transform.position = lastValidPosition;
+            ball.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            Debug.Log("ball reset");
+            Debug.Log("transformposition:"+ ball.transform.position);
+            Debug.Log("valid" + lastValidPosition);
+
+        }
+
         old_position = ball.transform.position;
     }
 }

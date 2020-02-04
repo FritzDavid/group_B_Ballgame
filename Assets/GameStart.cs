@@ -16,7 +16,8 @@ public class GameStart : MonoBehaviour
     void Start()
     {
         ballYPos = ball.transform.position.y;
-        ball.transform.position = new Vector3(ball.transform.position.x, -1 , ball.transform.position.z);
+        ball.transform.position = new Vector3(ball.transform.position.x, 100 , ball.transform.position.z);
+        ball.GetComponent<Rigidbody>().useGravity = false;
 
     }
 
@@ -26,6 +27,7 @@ public class GameStart : MonoBehaviour
         if (gamestarted == false && SteamVR_Actions._default.Squeeze.GetAxis(RightInputSource) == 1)
         {
             ball.transform.position = new Vector3(ball.transform.position.x, ballYPos, ball.transform.position.z);
+            ball.GetComponent<Rigidbody>().useGravity = true;
             onBoardingBoard.SetActive(false);
             Debug.Log("Right Trigger value:" + SteamVR_Actions._default.Squeeze.GetAxis(RightInputSource).ToString());
             gamestarted = true;

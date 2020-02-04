@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
+using Valve.VR.InteractionSystem;
 
 public class ball_force : MonoBehaviour
 {
@@ -9,6 +11,9 @@ public class ball_force : MonoBehaviour
     public Vector3 velocity;
     public float t; //Zeit
     public int hit_counter;
+
+    //public SteamVR_Input_Sources HandType;
+    public SteamVR_Action_Vibration HapticAction;
 
 
     // Start is called before the first frame update
@@ -36,6 +41,7 @@ public class ball_force : MonoBehaviour
     {
         if (other.gameObject.name == "ball")
         {
+            HapticAction.Execute(0f, 0.25f, 20, 50, SteamVR_Input_Sources.RightHand);
             other.attachedRigidbody.velocity = velocity;
             hit_counter++;
         }
