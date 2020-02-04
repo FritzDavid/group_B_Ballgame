@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/level_tutorial.unity
+    guid: 3483cca360a830146977225fdffc2331
+  - enabled: 1
     path: Assets/level_desert_1.unity
     guid: c3f72e82e75b42b4280b18a8f2cb7964
   - enabled: 1
-    path: Assets/level_moon_1.unity
-    guid: 110d6a60e3dcd7243bbb3e53ad91ad21
+    path: Assets/level_moon.unity
+    guid: 96085745dba930e4aba9ff3483697e43
   m_configObjects: {}
