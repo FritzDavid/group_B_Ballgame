@@ -1,3 +1,5 @@
+Executable im Ordner /Abgabe
+
 Wie spielt man Space Golf?
 
 Nach Starten des Spiels den Anweisungen der Tafel befolgen.
