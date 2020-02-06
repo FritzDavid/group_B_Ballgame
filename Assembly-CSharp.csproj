@@ -63,11 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\accelerate_arrows.cs" />
     <Compile Include="Assets\ball_force.cs" />
     <Compile Include="Assets\DontDestroy.cs" />
     <Compile Include="Assets\GameStart.cs" />
     <Compile Include="Assets\golfclub.cs" />
     <Compile Include="Assets\HoleTrigger.cs" />
+    <Compile Include="Assets\HoverFinischFlag.cs" />
     <Compile Include="Assets\RampVelocity.cs" />
     <Compile Include="Assets\show_stats.cs" />
     <Compile Include="Assets\ShowResults.cs" />
@@ -79,22 +81,22 @@
     <None Include="Assets\fbx_objexts\33-fbx\fbx\Readme.txt" />
     <None Include="Assets\fbx_objexts\Minigolf Kit (2.0)\License.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -280,16 +282,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/feni1011/Desktop/group_B_Ballgame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/frda1023/Documents/GitHub/group_B_Ballgame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
